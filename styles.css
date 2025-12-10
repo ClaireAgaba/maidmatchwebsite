@@ -131,6 +131,18 @@ nav .container {
     font-weight: 600;
 }
 
+.web-app-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--white);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.web-app-link:hover {
+    color: #fbe9ff;
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
@@ -424,6 +436,10 @@ footer {
     .app-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .web-app-link {
+        text-align: center;
     }
 
     .nav-links {
